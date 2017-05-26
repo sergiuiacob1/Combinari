@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+	<title>Combinari</title>
+	<link href="../files/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../files/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../files/css/style_sec.css">
+</head>
+
+<body>
+<div id="ptbox1">
+<p>
+<b><span id="titlu" style="font-size:18px">Descrierea solu&#355;iei</span></b>
+</br>
+</br>
+&nbsp;&nbsp;&nbsp;Vom avea doi indici <span style="font-family:Courier New, Verdana;">i</span> &#351;i <span style="font-family:Courier New, Verdana;">j</span> cu care vom parcurge liniile, respectiv coloanele Triunghiului lui Pascal.
+</br>
+&nbsp;&nbsp;&nbsp;Avem grij&#259; s&#259; ini&#355;ializ&#259;m mereu pozi&#355;ia <span style="font-family:Courier New, Verdana;">TP[i][0]=1</span>, oricare ar fi i 0<=<span style="font-family:Courier New, Verdana;">i</span><=n, apoi aplic&#259;m formula de recuren&#355;&#259; pentru fiecare element al liniei: <span style="font-family:Courier New, Verdana;">TP[i][j]=TP[i-1][j-1]+TP[i-1][j]</span>.
+</br>
+&nbsp;&nbsp;&nbsp;Triunghiul lui Pascal se genereaz&#259; doar sub diagonala principal&#259; a matricei din cauza faptului c&#259; <span style="font-family:Courier New, Verdana;">m</span><=<span style="font-family:Courier New, Verdana;">n</span>, de aceea vom parcurge liniile de la 1 la <span style="font-family:Courier New, Verdana;">n</span> &#351;i coloanele doar cât timp <span style="font-family:Courier New, Verdana;">j</span><=<span style="font-family:Courier New, Verdana;">i</span>.
+Solu&#355;ia final&#259; se va afla &icirc;n matrice pe pozi&#355;ia <span style="font-family:Courier New, Verdana;">TP[n][m]</span>.
+</p>
+</div>
+</body>
