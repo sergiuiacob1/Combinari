@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:400;
+	color: #fff;
+	font-size: 14px;
+}
+
+a {
+	color: #6BAFBD;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+	a:hover,
+	a.selected {
+		color: #45677F;
+	}
+
+.sociales {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+	#timeline {
+		width: 800px;
+		//height: 474px;
+		height:100%;
+		overflow: hidden;
+		margin: 100px 0 0 25px;
+		position: relative;
+		background: url('../images/dot.png') left 45px repeat-x;
+	}
+		#dates {
+			width: 800px;
+			height:80px;
+			overflow: hidden;
+		}
+			#dates li {
+				list-style: none;
+				float: left;
+				width: 100px;
+				height: 45px;
+				font-size: 20px;
+				text-align: center;
+				background: url('../images/biggerdot.png') center bottom no-repeat;
+				padding-top: 6px;
+			}
+				#dates a {
+					line-height: 38px;
+					padding-bottom: 10px;
+				}
+		
+		#issues {
+			width: 800px;
+			height: 350px;
+			overflow: hidden;
+		}	
+			#issues li {
+				width: 800px;
+				height: 350px;
+				list-style: none;
+				float: left;
+			}
+				#issues li img {
+					float: right;
+					margin: -0px 30px 10px 50px;
+					background: transparent;
+				}
+				#issues li h1 {
+					color: #4da980;
+					font-size: 30px;
+					margin: 20px 0;
+					margin-left:30px;
+				}
+				#issues li p {
+					font-size: 14px;
+					margin-right: 350px;
+					font-weight: normal;
+					line-height: 22px;
+					margin-left:30px;
+					color:#333;
+				}
+		
+		#next,
+		#prev {
+			position: absolute;
+			top: 0;
+			font-size: 70px;
+			top: 170px;
+			width: 22px;
+			height: 38px;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+		}
+			#next {
+				right: 0;
+				background-image: url('images/next.png');
+			}
+			#prev {
+				left: 0;
+				background-image: url('images/prev.png');
+			}
+				#next.disabled,
+				#prev.disabled {
+					opacity: 0.2;
+				}

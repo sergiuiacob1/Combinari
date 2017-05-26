@@ -1,0 +1,119 @@
+iframe{
+	border-bottom-right-radius: 15px;
+}
+
+#meniu .box1 p
+{
+padding: 5px 0px 0px 10px;
+font-size:16px;
+}
+
+#test
+{
+margin:10px;
+width: 100px;
+height: 100px;
+}
+
+#meniu img{
+margin: 15px 0 0 30px;
+}
+
+.spatiu{
+margin-top:50px;
+text-align:center;
+font-size:24px;
+}
+
+#titlu_box0
+{
+font-size: 32px;
+font-weight: normal;
+letter-spacing: 3px;
+text-align: center;
+margin-top: -35px;
+}
+
+#ptbox1
+{
+width: 360px;
+height: 430px;
+margin: 10px;
+}
+	#ptbox1 #titlu{
+		margin-left: 18px;
+	}
+
+#numere
+{
+text-align:center;
+font-size:24px;
+}
+
+#numere a:hover
+{
+color:#000;
+}
+
+#ptbox1 p
+{
+line-height:25px;
+}
+
+#instr
+{
+	padding: 5px 5px 0px 10px;
+	font-size: small;
+	line-height: 20px;
+}
+
+.box0{
+	background-color: #f1f1f1;
+	border: solid 2px #4da980;
+}
+
+.box1{
+	background-color: #f1f1f1;
+	border-right: solid 4px #4da980;
+}
+
+.box2{
+	background-color: #f1f1f1;
+}
+
+.box3{
+	background-color: #f1f1f1;
+	border-right: solid 4px #4da980;
+	border-top: solid 2px #4da980;
+}
+
+.box0{
+	background-color: #4da980;
+	color: #f1f1f1;
+	width: 1232px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.box1{
+	width: 380px;
+	height: 474px;
+	margin: 0;
+	float: left;
+}
+
+.box2{
+	width: 850px;
+	height: 563px;
+	margin: 0;
+	float: right;
+	border-bottom-right-radius: 15px;
+}
+
+.box3{
+	width: 380px;
+	height: 87px;
+	margin: -89px 0 0 0;
+	float: left;
+	border-bottom-left-radius: 15px;
+}
