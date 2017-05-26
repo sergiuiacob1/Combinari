@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jmatch-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Concept</dc:creator>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title></title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<matching-exercise>
+<default-right-item>???</default-right-item>
+
+<pair>
+<left-item><text>Combin&amp;#x0026;#259;ri de n luate c&amp;#x0026;acirc;te 0 este egal cu 0.</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>F</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Putem calcula combin&amp;#x0026;#259;ri de n luate c&amp;#x0026;acirc;te k doar dac&amp;#x0026;#259; k&amp;#x2264;n. </text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>F</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x0026;Icirc;n Antichitate, europenii sunt cei care au adus cele mai multe contribu&amp;#x0026;#355;ii &amp;#x0026;icirc;n domeniul combin&amp;#x0026;#259;rilor. </text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>F</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Hemacandra este cel care a descoperit c&amp;#x0026;#259; exist&amp;#x0026;#259; 2^n m&amp;#x0026;#259;suri care s&amp;#x0026;#259; con&amp;#x0026;#355;in&amp;#x0026;#259; n silabe. </text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>F</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Prima problem&amp;#x0026;#259; despre combin&amp;#x0026;#259;ri provine dintr-o scriere arab&amp;#x0026;#259; despre chirurgie. </text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>A</text>
+<fixed>0</fixed>
+</right-item></pair>
+</matching-exercise>
+</data>
+
+<hotpot-config-file>
+<jmatch>
+<exercise-subtitle></exercise-subtitle>
+<instructions> R&amp;#x0026;#259;spunde&amp;#x0026;#355;i cu Adev&amp;#x0026;#259;rat (A) sau Fals (F): 
+Pentru fiecare item din partea st&amp;#x00E2;ng&amp;#x0026;#259; alege un r&amp;#x0026;#259;spuns din lista derulant&amp;#x0026;#259; din partea dreapt&amp;#x0026;#259;.</instructions>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>1</questions-to-show>
+<shuffle-questions>1</shuffle-questions>
+<separate-javascript-file>1</separate-javascript-file>
+<next-caption>Next</next-caption>
+<delete-caption>Delete</delete-caption>
+<guess-correct>Corect. Bravo!</guess-correct>
+<guess-incorrect>&amp;#x0026;Icirc;ncearc&amp;#x0026;#259; din nou! R&amp;#x0026;#259;spunsurile gre&amp;#x0026;#351ite au fost eliminate.</guess-incorrect>
+</jmatch>
+
+<global>
+<your-score-is>Scorul t&amp;#x0026;#259;u este:</your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+<times-up>Your time is over!</times-up>
+<check-caption>Verific&amp;#x0026;#259;</check-caption>
+<ok-caption>OK</ok-caption>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#F1F1F1</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#F1F1F1</ex-bg-color>
+<text-color>#666</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#4da980</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+</global>
+</hotpot-config-file>
+</hotpot-jmatch-file>

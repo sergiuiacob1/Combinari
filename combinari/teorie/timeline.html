@@ -1,0 +1,83 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Timeline</title>
+	<link rel="stylesheet" href="../files/css/style_timeline.css" media="screen" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="../js/jquery.timelinr-0.9.54.js"></script>
+	<script>
+		$(function(){
+			$().timelinr({
+				arrowKeys: 'true'
+			})
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div id="timeline">
+		<ul id="dates">
+			<li><a href="#tim1">anul 1650 &icirc.Hr.</a></li>
+			<li><a href="#tim2">secolul VI &icirc.Hr.</a></li>
+			<li><a href="#tim3">secolul II &icirc.Hr.</a></li>
+			<li><a href="#tim4">secolul</br>IX</a></li>
+			<li><a href="#tim5">aproximativ anul 1100</a></li>
+			<li><a href="#tim6">anul</br>1140</a></li>
+			<li><a href="#tim7">secolul XIII</a></li>
+			<li><a href="#tim8">secolul XVII</a></li>
+		</ul>
+		<ul id="issues">
+			<li id="tim1">
+				<h1>Papirusul din Rhind</h1>
+				<p>Se realieaz&#259; prima leg&#259;tur&#259; cu combinatorica &icircn “Papirusul din Rhind”, o scriere cu caracter matematic din Egipt. &Icircn cadrul acesteia exist&#259; o problem&#259; (problema 79) care are la baz&#259; progresiile geometrice. Aceasta sun&#259; cam a&#351;a: Exist&#259; 7 case. Fiecare cas&#259; are 7 pisici. Fiecare pisic&#259; m&#259;n&acircnc&#259; 7 &#351;oareci. Fiecare &#351;oarece m&#259;n&acircnc&#259; 7 saci de gr&acircu. Din fiecare sac de gr&acircu se fac 7 hekat-e (unitate de m&#259;sur&#259; egiptean&#259; echivalent&#259; cu un volum de 4.8 L)  de f&#259;in&#259;. C&acirct&#259; f&#259;in&#259; au salvat pisicile &#351;i c&acircte obiecte avem de fiecare fel &#351;i &icircn total?</p>
+				<img src="../files/images/1.png" width="256" height="256"  style="margin-top:-250px; margin-right:70px;"/>
+			</li>
+			<li id="tim2">
+				<h1>Prima problem&#259; a fost una cu gust!</h1>
+				<p>Fizicianul Sushruta formuleaz&#259; &icircn cartea “Sushruta Samhita”, o scriere hindus&#259; pe subiectul chirurgiei, prima problem&#259; de combinatoric&#259;. Autorul &icirc&#351;i punea urm&#259;toarea problem&#259;: Dac&#259; exist&#259; 6 gusturi, &icircn c&acirc;te moduri cineva ar putea sim&#355;i unul, dou&#259;, trei... &#351;ase gusturi &icircn acela&#351;i timp? El a venit &#351;i cu un r&#259;spuns, &#351;i anume 2^6-1 combina&#355;ii (r&#259;spuns corect ce se verific&#259; cu formula sumelor de combin&#259;ri).</p>
+				<img src="../files/images/2.jpg" height="50%" style="margin-top:-150px; margin-right:70px;"/>
+			</li>
+			<li id="tim3">
+				<h1>Descoperiri din locuri nea&#351;teptate</h1>
+				<p>Urm&#259;toarele idei legate de combin&#259;ri vin de la scriitorul Pingala care se &icircntreab&#259; &icircn cartea sa de prozodie, “Chandahsutra”, &icircn c&acircte moduri ar putea combina note lungi &#351;i scurte &icircntr-o m&#259;sur&#259; de 6 silabe. De asemenea, el a descoperit c&#259; exist&#259; 2^n m&#259;suri care s&#259; con&#355;in&#259; n silabe, iar c&acircnd a plasat notele lungi &#351;i scurte pe o m&#259;sur&#259; de 4 silabe a obsevat c&#259; exista o m&#259;sur&#259; numai cu note scurte, 4 cu 3 note scrute &#351;i una lung&#259;, 6 cu dou&#259; note scurte &#351;i dou&#259; lungi, 4 cu o not&#259; scurt&#259; &#351;i 3 lungi &#351;i una doar cu note lungi, ceea ce este echivalent cu descoperirea coeficien&#355;ilor binomiali.</p>
+				<img src="../files/images/3.jpg" height="110%" style="margin-top:-250px; margin-right:70px;"/>
+			</li>
+			<li id="tim4">
+				<h1>Inventatorul formulelor de calcul</h1>
+				<p>Matematicianul indian Mahāvīra inventeaz&#259; formulele de calcul pentru combin&#259;ri &#351;i permut&#259;ri, de&#351;i probabil c&#259; acestea le erau cunoscute deja matematicienilor din secolul VI &icirc.Hr.</p>
+				<img src="../files/images/4.jpg" height="60%" style="margin-top:-100px; margin-right:70px;"/>
+			</li>
+			<li id="tim5">
+				<h1>Combi… nacci?</h1>
+				<p>Un alt autor indian de prozodie, Hemacandra, studiaz&#259; scrierile lui Pingala &#351;i ajunge la o descoperire important&#259;. El a asociat notelor scurte lungimea 1 &#351;i celor lungi lungimea 2, apoi a luat numerele naturale &icircn ordine ca lungimi &#351;i pentru fiecare a determinat num&#259;rul de m&#259;suri care s&#259; aib&#259; lungimea respectiv&#259;. Astfel, pentru 1 este o m&#259;sur&#259; (L), pentru 2 dou&#259; m&#259;suri (L,SS), pentru 3 3 m&#259;suri (SSS, LS, SL), pentru 4 5 m&#259;suri (SSL, LL, SLS, SSSS, LSS), adic&#259;, altfel spus, a descoperit numerele lui Fibonacci cu jum&#259;tate de secol &icircnainte ca acestea s&#259; fie introduse &icircn Europa de c&#259;tre Leonardo Fibonacci!</p>
+				<img src="../files/images/5.png" height="80%" style="margin-top:-300px; margin-right:70px;"/>
+			</li>
+			<li id="tim6">
+				<h1>Pa&#351;i mici &#351;i importan&#355;i</h1>
+				<p>Filozoful &#351;i astronomul Rabbi Abraham ibn Ezra a stabilit simetria coeficien&#355;ilor binomiali, o formul&#259; de calculare recurent&#259; a lor fiind descoperit&#259; de matematicianul Levi ben Gerson, &icircn 1321.</p>
+				<img src="../files/images/6.png" height="80%" style=" margin-right: 150px; margin-top:-150px;"/>
+			</li>
+			<li id="tim7">
+				<h1>Combinatorica &icircn Europa</h1>
+				<p>Combinatorica p&#259;trunde &#351;i &icircn Europa prin intermediul lui Leonardo Fibonacci &#351;i Jordanus de Nemore. Acesta din urm&#259; a fost primul care a aranjat coeficien&#355;ii binomiali &icircntr-un triunghi care va urma a fi cunoscut sub numele de Triunghiul lui Pascal.</p>
+				<img src="../files/images/7.png" height="40%" style="margin-top:-120px; margin-right:50px;"/>
+			</li>
+			<li id="tim8">
+				<h1>Combinatorica modern&#259;</h1>
+				<p>Putem spune c&#259; a ap&#259;rut combinatorica modern&#259;, “t&#259;ticii” ei fiind Blaise Pascal &#351;i Gottfried Wilhelm von Leibniz. Pascal este cel care a studiat &#351;i a descoperit cele mai multe propriet&#259;&#355;i ale triunghiului alc&#259;tuit din coeficien&#355;i binomiali, de aceea triunghiul a fost denumit dup&#259; el. Leibniz este cel care introduce ideea de parti&#355;ii, adic&#259; moduri de a &icircmp&#259;r&#355;i o mul&#355;ime &icircn submul&#355;imi a c&#259;ror sum&#259; de cardinale este cardinalul mul&#355;imii &#351;i care reunite dau mul&#355;imea ini&#355;ial&#259;. Folosindu-se de cercet&#259;rile celor doi, Abraham De Moivre reu&#351;este s&#259; descopere un mod de a aproxima coeficien&#355;i binomiali sau factoriale mari, dar &#351;i func&#355;iile generatoare.</p>
+				<img src="../files/images/8.png" height="50%;" style="margin-top:-240px;"/>
+			</li>
+		</ul>
+		<!--<div id="grad_left"></div>
+		<div id="grad_right"></div>-->
+		<a href="#" id="next">+</a>
+		<a href="#" id="prev">-</a>
+	</div>
+
+
+</body>
+</html>

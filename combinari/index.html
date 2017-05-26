@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<title>Combinari</title>
+	<link href="files/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="files/css/style.css">
+	
+	<!-- Animatie inceput -->
+    <script type="text/javascript" charset="utf-8" src="comb_edgePreload.js"></script>
+    <style>
+        .edgeLoad-EDGE-4217101 { visibility:hidden; }
+    </style>
+	<!-- -->
+	
+	<!-- Ascunde continutu 2 secunde -->
+	<script type="text/javascript" language="javascript">
+		window.onload=function(){ //executes when the page finishes loading
+			setTimeout(func1, 250);  //sets a timer which calls function func1 after 2,000 milliseconds = 2 secs.
+		};
+		function func1(){
+			document.getElementById("meniu").className="show";
+		}
+	</script>
+
+	<style type="text/css">
+		.hide{
+			display:none;
+		}
+		.show{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+<div id="meniu" class="hide">
+	<span id="boss">COMBIN&#258;RI</span>
+	
+	<div class="box1">
+		<ul>
+		<li id="titlu">Teorie matematic&#259;</li>
+		<li><a href="teorie/istoric.html" id="link">Istoricul combin&#259;rilor</a></li>
+		<li><a href="teorie/def_prop.html" id="link">Aspecte teoretice</a></li>
+		<li><a href="teorie/aplicatii.html" id="link">Aplica&#355;ii</a></li>
+		</ul>
+	</div>
+	
+	<div class="box2">
+		<ul>
+		<li id="titlu">Generarea combin&#259;rilor</li>
+		<li><a href="generare/gen_iterativ.html" id="link">Varianta iterativ&#259;</a></li>
+		<li><a href="generare/gen_iterativ_succesor.html" id="link">Varianta iterativ&#259; (algoritm de tip succesor)</a></li>
+		<li><a href="generare/gen_recursiv.html" id="link">Varianta recursiv&#259;</a></li>
+		<li><a href="generare/aplicatii.html" id="link">Aplica&#355;ii</a></li>
+		</ul>
+	</div>
+	<div style="clear: both"></div>
+	
+	<div class="box3">
+		<ul>
+		<li id="titlu">Triunghiul lui Pascal</li>
+		<li><a href="pascal/pascal_teorie.html" id="link">Aspecte teoretice</a></li>
+		<li><a href="pascal/pascal_gen.html" id="link">Generarea triunghiului</a></li>
+		<li><a href="pascal/pascal_gen_ef.html" id="link">Generarea triunghiului (eficient&#259;)</a></li>
+		<li><a href="pascal/aplicatii.html" id="link">Aplica&#355;ii</a></li>
+		</ul>
+	</div>
+		
+	<div class="box4">
+		<ul>
+		<li><a href="final/aplicatii.html" id="titlu">Test final</a></li>
+		</ul>
+	</div>
+	<div style="clear: both"></div>	
+	<div class="footerSt">
+		<p>Bos&icirc;nceanu Lucian, Cobzac &#350;erban, Iacob Sergiu</p>
+		<p>Clasa a XII-a A</p>
+		<p>Colegiul Na&#355;ional "Emil Racovi&#355;&#259;" Ia&#351;i</p>
+	</div>
+	
+	<div class="footerDr">
+		<p>prof. &icirc;ndrum&#259;tor,</p>
+		<p>Emanuela Cerchez</p>
+	</div>
+</div>
+</body>
+</html>
